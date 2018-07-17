@@ -1,0 +1,34 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	It's easier to identified to changes in the text when specific lines are presented as an excerpt.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Version control tracking could help identify changes from one version to another easier. Sometimes a particular change may have had an unexpected outcome and requiring reversing changes.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+	Manually saved changes, or commits, allow the user to decide when a group of document modifications are worth saving. Unlike automatic savings, commits enpower the programmer to decide when a modification is complete and worth saving. 
+	An argument agains the use of commits is that the user could forget to save changes; introducing human-error.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git is mainly used for version control of projects that may require multiple files to run. Multiple files that are part of a project are called a repository. Each commit in the repository creates a log for each of the files with a shared timestamp.
+
+How can you use the commands git log and git diff to view the history of files?
+
+	git log: It's a command used to show the log containing all changes made on the repository.
+	git diff: It's a command used to compare changes between commits. The parameter "--stat" is used to show a summary of changes between 2 commits. 
+
+How might using version control make you more confident to make changes that could break something?
+
+    Knowing version could be rolled back for code inspection is reassuring. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I'll use GitHub to keep track of changes on small pieces of code for automation.
