@@ -6,3 +6,29 @@ Git creates necessary files to start the repository. Needed to tell github to st
 How is the staging area different from the working directory and the repository? What value do you think it offers
 
 The staging area seems to be a spot to temporarily place files before they are committed to the git. The working directory is the memory allocation in the local machine where all files in repository reside.
+
+=============================================================
+
+Reflect: Commit Size
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Evaluate files in the Staging Area using "git status" to evaluate staged files. 
+
+File changes flow in the following order: 
+1) Working Directory: holds changes made on all files. 
+Use "git diff" to compare changes between file version in the Working Directory and the Staging Area. 
+"git status" shows file not yet staged (still in the Working Directory) and changes staged (in the Staging Area).
+Save file changes and move to Staging Area with "git add".
+2) Staging Area: Holds file changes after they are added. 
+Use "git diff --staged" to compare Staging Area files to latest commit.
+Use "git commit" to move changes in Staging Area to Repository.
+3) Repository: Keeps all commits.
+Use "git diff ID1 ID2" to compare changes between 2 commits. 
+"git log" shows commits in cronological order.
+
+=======================================================================
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches can help keep track of different versions of the same program/code. For instance if a version of the code is supposed to run a particular library while a second version of the same code runs a different library both branched could be developed independently without conflicts.
+
