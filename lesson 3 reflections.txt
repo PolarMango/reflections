@@ -13,3 +13,5 @@ Forks, clones and branches. When would you use one instead of another?
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
     Having the last known copy of the remote reduces the possibility of conflicts when multiple people have made changes to their own versions of the master. In that case, conflicts need to be resolved when merging the local master with the remote master.
+
+    Extra comments to detect if the remote gets updates automatically when a local commit is done.
